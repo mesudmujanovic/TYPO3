@@ -5,6 +5,9 @@
 $typo3InstallDir = \TYPO3\CMS\Core\Core\Environment::getPublicPath() . '/';
 
 return array(
+    'Bitconex\\BitconexTeam\\Controller\\MemberController' => $typo3InstallDir . 'typo3conf/ext/bitconex_team/Classes/Controller/MemberController.php',
+    'Bitconex\\BitconexTeam\\Domain\\Model\\Member' => $typo3InstallDir . 'typo3conf/ext/bitconex_team/Classes/Domain/Model/Member.php',
+    'Bitconex\\BitconexTeam\\Domain\\Repository\\MemberRepository' => $typo3InstallDir . 'typo3conf/ext/bitconex_team/Classes/Domain/Repository/MemberRepository.php',
     'EBT\\ExtensionBuilder\\Configuration\\ExtensionBuilderConfigurationManager' => $typo3InstallDir . 'typo3conf/ext/extension_builder/Classes/Configuration/ExtensionBuilderConfigurationManager.php',
     'EBT\\ExtensionBuilder\\Controller\\BuilderModuleController' => $typo3InstallDir . 'typo3conf/ext/extension_builder/Classes/Controller/BuilderModuleController.php',
     'EBT\\ExtensionBuilder\\Domain\\Exception\\ExtensionException' => $typo3InstallDir . 'typo3conf/ext/extension_builder/Classes/Domain/Exception/ExtensionException.php',

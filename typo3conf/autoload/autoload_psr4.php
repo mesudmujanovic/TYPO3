@@ -5,5 +5,6 @@
 $typo3InstallDir = \TYPO3\CMS\Core\Core\Environment::getPublicPath() . '/';
 
 return array(
+    'Bitconex\\BitconexTeam\\' => array($typo3InstallDir . 'typo3conf/ext/bitconex_team/Classes'),
     'EBT\\ExtensionBuilder\\' => array($typo3InstallDir . 'typo3conf/ext/extension_builder/Classes'),
 );

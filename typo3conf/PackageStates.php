@@ -95,6 +95,9 @@ return [
         'bitconex' => [
             'packagePath' => 'typo3conf/ext/bitconex/',
         ],
+        'bitconex_team' => [
+            'packagePath' => 'typo3conf/ext/bitconex_team/',
+        ],
         'extension_builder' => [
             'packagePath' => 'typo3conf/ext/extension_builder/',
         ],

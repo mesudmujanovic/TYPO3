@@ -1,0 +1,14 @@
+plugin.tx_bitconexteam_members {
+    view {
+        # cat=plugin.tx_bitconexteam_members/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:bitconex_team/Resources/Private/Templates/
+        # cat=plugin.tx_bitconexteam_members/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:bitconex_team/Resources/Private/Partials/
+        # cat=plugin.tx_bitconexteam_members/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:bitconex_team/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_bitconexteam_members//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
