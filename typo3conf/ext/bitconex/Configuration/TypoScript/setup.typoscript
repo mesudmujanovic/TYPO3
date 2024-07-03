@@ -1,0 +1,57 @@
+page = PAGE
+
+page {
+
+    config {
+        no_cache = 1
+        contentObjectExceptionHandler = 0
+    }
+
+    meta {
+        viewport = width=device-width, initial-scale=1
+    }
+
+    shortcutIcon = EXT:bitconex/Resources/Public/Icons/Extension.png
+
+    includeCSSLibs {
+       bootstrap4 = https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css
+       bootstrap4.external = 1
+    }
+
+    includeCSS {
+        typo3 = EXT:bitconex/Resources/Public/Css/layout.min.css
+    }
+
+    includeJS {
+        jquery = EXT:bitconex/Resources/Public/Js/jQuery.min.js
+        themeJS = EXT:bitconex/Resources/Public/Js/theme.js
+    }
+
+    includeJSFooterlibs {
+        jquery = https://code.jquery.com/jquery-3.2.1.min.js
+        jquery.external = 1
+    }
+
+    includeJSFooter {
+        themeJS = EXT:bitconex/Resources/Public/Js/theme.js
+    }
+
+
+    10 = FLUIDTEMPLATE
+    10 {
+        templateName = Default
+        layoutRootPaths{
+            10 = EXT:bitconex/Resources/Private/Layouts
+        }
+        templateRootPaths{
+            10 = EXT:bitconex/Resources/Private/Templates
+        }
+        partialRootPaths{
+            10 = EXT:bitconex/Resources/Private/Partials
+        }
+    }
+
+
+}
+
+<INCLUDE_TYPOSCRIPT:source="FILE:EXT:bitconex/Configuration/TypoScript/Addons/lib.main.typoscript">

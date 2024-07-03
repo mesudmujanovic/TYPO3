@@ -1,0 +1,22 @@
+mod.web_layout.BackendLayouts {
+    content {
+        title = BitConEx Layout
+        icon = EXT:bitconex/Resources/Public/Icons/Extension.png
+        config {
+            backend_layout {
+                colCount = 1
+                rowCount = 1
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = Content
+                                colPos = 0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
