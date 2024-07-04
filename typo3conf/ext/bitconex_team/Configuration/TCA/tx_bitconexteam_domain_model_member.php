@@ -17,11 +17,11 @@ return [
             'starttime' => 'starttime',
             'endtime' => 'endtime',
         ],
-        'searchFields' => 'name,lastname',
+        'searchFields' => 'name,test,lastname',
         'iconfile' => 'EXT:bitconex_team/Resources/Public/Icons/tx_bitconexteam_domain_model_member.gif'
     ],
     'types' => [
-        '1' => ['showitem' => 'name, lastname, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, sys_language_uid, l10n_parent, l10n_diffsource, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden, starttime, endtime'],
+        '1' => ['showitem' => 'name, test, lastname, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language, sys_language_uid, l10n_parent, l10n_diffsource, --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access, hidden, starttime, endtime'],
     ],
     'columns' => [
         'sys_language_uid' => [
@@ -104,6 +104,17 @@ return [
             'exclude' => true,
             'label' => 'LLL:EXT:bitconex_team/Resources/Private/Language/locallang_db.xlf:tx_bitconexteam_domain_model_member.name',
             'description' => 'LLL:EXT:bitconex_team/Resources/Private/Language/locallang_db.xlf:tx_bitconexteam_domain_model_member.name.description',
+            'config' => [
+                'type' => 'input',
+                'size' => 30,
+                'eval' => 'trim,required',
+                'default' => ''
+            ],
+        ],
+        'test' => [
+            'exclude' => true,
+            'label' => 'testfield',
+            'description' => 'testdesckription',
             'config' => [
                 'type' => 'input',
                 'size' => 30,

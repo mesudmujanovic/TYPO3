@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:bitconex_team/Resources/Private/Language/locallang.xlf" date="2024-07-03T14:55:00Z" product-name="bitconex_team">
+		<header/>
+		<body>
+			<trans-unit id="tx_bitconexteam_domain_model_member" resname="tx_bitconexteam_domain_model_member">
+				<source>Member</source>
+			</trans-unit>
+			<trans-unit id="tx_bitconexteam_domain_model_member.description" resname="tx_bitconexteam_domain_model_member.description">
+				<source>Member</source>
+			</trans-unit>
+			<trans-unit id="tx_bitconexteam_domain_model_member.name" resname="tx_bitconexteam_domain_model_member.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_bitconexteam_domain_model_member.name.description" resname="tx_bitconexteam_domain_model_member.name.description">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_bitconexteam_domain_model_member.lastname" resname="tx_bitconexteam_domain_model_member.lastname">
+				<source>Lastname</source>
+			</trans-unit>
+			<trans-unit id="tx_bitconexteam_domain_model_member.lastname.description" resname="tx_bitconexteam_domain_model_member.lastname.description">
+				<source>Lastname</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

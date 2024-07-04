@@ -20,3 +20,52 @@ plugin.tx_bitconexteam_members {
         #callDefaultActionIfActionCantBeResolved = 1
     }
 }
+
+# these classes are only used in auto-generated templates
+plugin.tx_bitconexteam._CSS_DEFAULT_STYLE (
+    textarea.f3-form-error {
+        background-color: #FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    input.f3-form-error {
+        background-color: #FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    .tx-bitconex-team table {
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+
+    .tx-bitconex-team table th {
+        font-weight: bold;
+    }
+
+    .tx-bitconex-team table td {
+        vertical-align: top;
+    }
+
+    .typo3-messages .message-error {
+        color: red;
+    }
+
+    .typo3-messages .message-ok {
+        color: green;
+    }
+)
+
+# Module configuration
+module.tx_bitconexteam_web_bitconexteammembers {
+    persistence {
+        storagePid = {$module.tx_bitconexteam_members.persistence.storagePid}
+    }
+    view {
+        templateRootPaths.0 = EXT:bitconex_team/Resources/Private/Backend/Templates/
+        templateRootPaths.1 = {$module.tx_bitconexteam_members.view.templateRootPath}
+        partialRootPaths.0 = EXT:bitconex_team/Resources/Private/Backend/Partials/
+        partialRootPaths.1 = {$module.tx_bitconexteam_members.view.partialRootPath}
+        layoutRootPaths.0 = EXT:bitconex_team/Resources/Private/Backend/Layouts/
+        layoutRootPaths.1 = {$module.tx_bitconexteam_members.view.layoutRootPath}
+    }
+}

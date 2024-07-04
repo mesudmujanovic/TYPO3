@@ -14,7 +14,6 @@ namespace Bitconex\BitconexTeam\Domain\Repository;
  * (c) 2024 Mesud Mujanovic <mesud9494@gmail.com>, Bitconex
  */
 
-
 /**
  * The repository for Members
  */

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:bitconex_team/Resources/Private/Language/locallang_csh_tx_bitconexteam_domain_model_member.xlf" date="2024-07-03T14:55:00Z" product-name="bitconex_team">
+	<file source-language="en" datatype="plaintext" original="EXT:bitconex_team/Resources/Private/Language/locallang_csh_tx_bitconexteam_domain_model_member.xlf" date="2024-07-04T13:58:40Z" product-name="bitconex_team">
 		<header/>
 		<body>
 			<trans-unit id="name.description" resname="name.description">

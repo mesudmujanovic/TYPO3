@@ -67,7 +67,18 @@
         }
     ],
     "properties": {
-        "backendModules": [],
+        "backendModules": [
+            {
+                "actions": {
+                    "controllerActionCombinations": ""
+                },
+                "description": "",
+                "key": "members",
+                "mainModule": "web",
+                "name": "Member Lists",
+                "tabLabel": "Member Lists"
+            }
+        ],
         "description": "Extension exer",
         "emConf": {
             "category": "plugin",
@@ -85,8 +96,8 @@
         },
         "extensionKey": "bitconex_team",
         "name": "Bitconex_team",
-        "originalExtensionKey": "",
-        "originalVendorName": "",
+        "originalExtensionKey": "bitconex_team",
+        "originalVendorName": "Bitconex",
         "persons": [
             {
                 "company": "Bitconex",
@@ -111,7 +122,7 @@
     "wires": [],
     "storagePath": "C:\/xampp\/htdocs\/typo3\/typo3conf\/ext\/",
     "log": {
-        "last_modified": "2024-07-03 02:55",
+        "last_modified": "2024-07-04 01:58",
         "extension_builder_version": "11.0.13",
         "be_user": " (1)"
     }

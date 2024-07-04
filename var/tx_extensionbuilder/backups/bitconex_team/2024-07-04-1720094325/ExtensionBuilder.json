@@ -1,0 +1,118 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    110,
+                    100
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": true,
+                    "_default2_show": true,
+                    "_default3_new_create": true,
+                    "_default4_edit_update": true,
+                    "_default5_delete": true,
+                    "customActions": []
+                },
+                "name": "Member",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": true,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": true,
+                    "type": "Entity",
+                    "uid": "909116484346"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "uid": "7075013100"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "lastname",
+                            "propertyType": "String",
+                            "uid": "933749822361"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Extension exer",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": false,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "bitconex_team",
+        "name": "Bitconex_team",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Bitconex",
+                "email": "mesud9494@gmail.com",
+                "name": "Mesud Mujanovic",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": ""
+                },
+                "description": "",
+                "key": "members",
+                "name": "Member Lists"
+            }
+        ],
+        "vendorName": "Bitconex"
+    },
+    "wires": [],
+    "storagePath": "C:\/xampp\/htdocs\/typo3\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2024-07-03 02:55",
+        "extension_builder_version": "11.0.13",
+        "be_user": " (1)"
+    }
+}
